@@ -7,7 +7,13 @@
 # list.append(mov3)
 # print(list) 
 
- #copy is planidrom
-my_list=[1,"abc","abc",2]
-list=my_list.copy()
-print(my_list== list)
+ #copy reverse is planidrom
+my_list1=[1,"abc","abc",1]
+
+list=my_list1.copy()
+list.reverse()
+if(list== my_list1):
+    print("Palindrom")
+else:
+    print("Not Palindrom")
+    

@@ -1,0 +1,14 @@
+sub1=int(input())
+sub2=int(input())
+sub3=int(input())
+dict={
+    "math":sub1,
+    "phyiscs":sub2,
+    "chemistry":sub3
+}
+print(dict)
+values={
+    ("float",9.0),
+    {"int",9}
+}
+print(values)
